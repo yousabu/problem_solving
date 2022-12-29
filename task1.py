@@ -27,4 +27,4 @@ def solution2(string,markers):
 
 go = "sf a sfa fsddd$ w#  #asd"
 
-print(go.split(" "))
+print(go.split("   "))
