@@ -184,4 +184,3 @@ def get_node_neighbors(maze_arr, parent_node):
             neighbors.append((x_1, y_1))
     return neighbors
 
-
