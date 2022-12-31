@@ -185,4 +185,3 @@ def get_node_neighbors(maze_arr, parent_node):
     return neighbors
 
 
-
