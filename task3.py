@@ -17,5 +17,3 @@ def balanced_parens(n):
 
 print(balanced_parens(3))
 
-
-
