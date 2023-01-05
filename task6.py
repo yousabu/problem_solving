@@ -7,3 +7,5 @@ def persistence(n):
         multiplier = (n % 10) * multiplier
         n = n // 10
     return persistence(multiplier) + 1
+
+
