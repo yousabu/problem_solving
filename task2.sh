@@ -6,6 +6,7 @@ do
 echo "$i";
 done
 
+
 for var in  {1..50}
 do
     echo $var;
