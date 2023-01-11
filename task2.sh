@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 for ((i=1;i<=50;i=i+1))
 do
 echo "$i";
@@ -10,7 +9,6 @@ for var in  {1..50}
 do
     echo $var;
 done
-
 
 func2 () {
    if [ -z "$1" ]                           # Is parameter #1 zero length?
