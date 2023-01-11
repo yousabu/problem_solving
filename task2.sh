@@ -11,6 +11,7 @@ do
     echo $var;
 done
 
+
 func2 () {
    if [ -z "$1" ]                           # Is parameter #1 zero length?
    then
