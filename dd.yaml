@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Deploy to eg16_enterprise instance
+name: Deploy to freezone16-enterprise instance
 
 # Controls when the workflow will run
 on:
@@ -28,8 +28,8 @@ jobs:
       - name: executing remote ssh commands using password
         uses: appleboy/ssh-action@master
         with:
-         host: ${{ secrets.EG16_HOST }}
-         username: ${{ secrets.EG16_USER}}
+         host: ${{ secrets.FREEZONE_HOST }}
+         username: ${{ secrets.FREEZONE_USER}}
          key: ${{ secrets.GITDEPLOY_PRIV_KEY }}
-         port: ${{ secrets.EG16_HOST_PORT }}
-         script: /home/gitdeploy/deploy_to_eg16.sh
+         port: ${{ secrets.FREEZONE_HOST_PORT }}
+         script: /home/gitdeploy/deploy_to_freezone16.sh
