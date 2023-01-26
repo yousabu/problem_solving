@@ -1,7 +1,6 @@
 #!/bin/bash
 
 read x 
-
 echo ${x,,}
 
 if [[ "${x,,}" == "y" ]]
