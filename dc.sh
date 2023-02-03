@@ -2,7 +2,7 @@
 
 
 
-for i in range{1..5}
+for i in range{1..50}
 do
 	touch go1${i}
 	gogit new
